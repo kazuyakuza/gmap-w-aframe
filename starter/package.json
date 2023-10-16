@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "webpack serve --progress --hot --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --progress --hot --open"
   },
   "author": "Alex Muramoto",
   "license": "Apache 2.0",
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.13.9",
+    "aframe": "^1.4.2",
+    "aframe-custom-canvas": "^1.4.2-c0",
     "three": "^0.138.3"
   },
   "devDependencies": {
